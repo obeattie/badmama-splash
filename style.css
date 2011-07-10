@@ -78,7 +78,7 @@ h1 {
     margin: 0;
 }
 
-@media only screen and (max-device width:480px) {
+@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2) {
     img {
         float: none;
         position: absolute;
