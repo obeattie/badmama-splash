@@ -78,7 +78,7 @@ h1 {
     margin: 0;
 }
 
-@media handheld {
+@media only screen and (max-device width:480px) {
     img {
         float: none;
         position: absolute;
